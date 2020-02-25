@@ -14,11 +14,7 @@ To test app.py
 or to start the flask app in debug mode
 
 ``` {.bash}
-~$ python app.py -d
-```
-
-Go to <http://0.0.0.0:8080/> and you will see a basic website that can
-be customtized for a project.
+~$ python app.py -
 
 To test the model directly
 --------------------------
@@ -83,6 +79,3 @@ Run the container to test that it is working
 ``` {.bash}
 ~$ docker run -p 4000:8080 iris-ml
 ```
-
-Go to <http://0.0.0.0:4000/> and you will see a basic website that can
-be customtized for a project.
